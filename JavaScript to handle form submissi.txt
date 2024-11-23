@@ -1,0 +1,13 @@
+// JavaScript to handle form submission
+document.getElementById('messageForm').addEventListener('submit', function(event) {
+    event.preventDefault();  // Prevent the form from actually submitting (refreshing the page)
+    
+    // Get the message input value
+    const message = document.getElementById('message').value;
+    
+    // If a message is provided, show a thank you message
+    if (message.trim() !== "") {
+        document.getElementById('thankYouMessage').style.display = 'block';
+        document.getElementById('message').value = "";  // Clear the textarea
+    }
+});

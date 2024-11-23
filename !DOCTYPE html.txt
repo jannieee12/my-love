@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>To My Beautiful [Her Name]</h1>
+        <p>Every moment with you is a special one.</p>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We've been together for [X] months, and every single moment has been filled with joy and love. Here's to forever together!</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Our Memories</h2>
+        <div class="image-gallery">
+            <img src="photo1.jpg" alt="Memory 1">
+            <img src="photo2.jpg" alt="Memory 2">
+            <img src="photo3.jpg" alt="Memory 3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Send Me a Message!</h2>
+        <form id="messageForm">
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Write something sweet..."></textarea>
+            <br>
+            <button type="submit">Send Love</button>
+        </form>
+        <p id="thankYouMessage" style="display:none;">Thank you for the sweet message! I love you!</p>
+    </section>
+
+    <footer>
+        <p>With all my heart, [Your Name]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
